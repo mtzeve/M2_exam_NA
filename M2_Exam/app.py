@@ -24,6 +24,6 @@ st.markdown("""
 
 """
 
-HtmlFile = open("nx.html", 'r', encoding='utf-8')
+HtmlFile = open("M2_exam_NA/M2_Exam/nx.html", 'r', encoding='utf-8')
 source_code = HtmlFile.read() 
 components.html(source_code, height = 700,width=700)
